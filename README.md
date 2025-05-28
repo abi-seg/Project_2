@@ -13,6 +13,13 @@ Prérequis
 •	Principales bibliothèques utilisées :
 o	requests(pip install requests)
 o	BeautifulSoup4(pip install BeautifulSoup4)
+Création et activation de l'environnement virtuel
+sous windows :
+python -m venv venv
+venv\Scripts\activate
+Sous macOS/Linux :
+python3 -m venv venv
+source venv/bin/activate
 Utilisation
 Pour lancer le script, exécutez :
 python Phase_4.py
