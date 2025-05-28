@@ -1,0 +1,6 @@
+requests
+beautifulsoup4
+
+Explication :
+requests : pour envoyer les requêtes HTTP au site.
+beautifulsoup4 : pour parser le HTML.
