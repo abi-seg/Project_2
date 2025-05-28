@@ -20,7 +20,7 @@ venv\Scripts\activate
 Sous macOS/Linux :
 python3 -m venv venv
 source venv/bin/activate
-Ensuite, installez les dépendances :
+Si vous exécutez ce projet dans un environnement virtuel, vous pouvez installer les dépendances :
 pip install -r requirements.txt
 Utilisation
 Pour lancer le script, exécutez :
