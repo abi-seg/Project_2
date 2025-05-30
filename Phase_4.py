@@ -36,8 +36,8 @@ def extract_book_data(book_url, category_name):
     rows = {row.th.text.strip(): row.td.text.strip() for row in table.find_all('tr')}
 
     upc = rows.get('UPC', '')
-    price_incl_tax = extract_number(rows.get('Price (incl. tax)', ''))
-    price_excl_tax = extract_number(rows.get('Price (excl. tax)', ''))
+    price_incl_tax = f"'{extract_number(rows.get('Price (incl. tax)', '')):.2f}"#:.2f garantit que deux chiffres après la virgule sont conservés, et le préfixe ' force Excel à traiter la valeur comme une chaîne de texte, et non comme une date.
+    price_excl_tax = f"'{extract_number(rows.get('Price (excl. tax)', '')):.2f}"
     availability = extract_number(rows.get('Availability', ''))
     num_reviews = rows.get('Number of reviews', '')
  #rating
