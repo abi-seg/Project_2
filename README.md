@@ -24,7 +24,7 @@ Si vous exécutez ce projet dans un environnement virtuel, vous pouvez installer
 pip install -r requirements.txt
 Utilisation
 Pour lancer le script, exécutez :
-python Phase_4.py
+[python Phase_4.py](https://github.com/abi-seg/Project_2/blob/main/Phase_4.py)
 Les données et images extraites seront sauvegardées automatiquement dans les dossiers /csv (pour les fichiers CSV) et /images (pour les images classées par catégorie).
 Résultats attendus
 •	Dossiers /csv/ contenant un fichier CSV par catégorie avec les informations des livres
