@@ -97,7 +97,7 @@ def scrape_site():
             try:
                 row = extract_book_data(url, category_name)
                 rows.append(row)
-                print(f"  {row[2]}")
+                print(f"  {row[2]}") #afficher dans la console le titre du livre
             except Exception as e:
                 print(f"Error: {e}")
 
